@@ -1,0 +1,137 @@
+body {
+    padding: 0;
+    margin: 0;
+  font-size: 12px;
+  font-family: "Spartan";
+}
+.main_bg{
+    position:relative;
+   grid-area: main_bg;  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+    font-weight: 500;
+    color: white;
+  display: inline;
+  padding-left: 2rem;
+}
+li a{
+color: white;
+text-decoration: none;
+}
+
+li a:hover{
+    text-underline-offset: 3px;
+    text-decoration: underline;
+}
+nav {
+    
+    position: absolute;
+    top: 60px;
+    left: 60px;
+  align-items: center;
+  display: inline-flex;
+}
+#logo {
+    color: white;
+  padding-right: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.second_bg{
+padding-top: 50px;
+padding-left: 70px;
+padding-right: 70px;
+grid-area: second_bg;
+}
+
+.container{
+    display: grid;
+    grid-template-columns:auto auto auto;
+    grid-template-areas:
+               "main_bg second_bg"; 
+}
+h1{
+    font-size:35px;
+    font-weight:600;
+   margin-top: 100px;
+}
+#para{
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 11px;
+    color: hsl(0, 0%, 63%);
+}
+#shop{
+    margin-top: 30px;
+    font-weight: 500;
+    text-transform:uppercase;
+    letter-spacing: 10px;
+    font-size: 12px;
+    color: hsl(0, 0%, 63%);
+}
+#shop_now{
+    display:flex;
+}
+.image_container, .main_bg{
+    height: 534px;
+}
+
+.image_container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.about_text{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 70px;
+    word-spacing: 2px;
+    font-size: 11px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: hsl(0, 0%, 63%);
+}
+.about_text h2{
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color:black;
+}
+#icon_left{
+    background-color:black;
+    height: 75px;
+    width: 13.3%;
+    align-content: center;
+}
+#icon_right img,#icon_left img{
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+#icon_right{
+    background-color:black;
+    height: 75px;
+    width: 13.3%; 
+}
+#icon_container{
+position: relative;
+top: 73px;
+    display: flex;
+}
+.second_bg_container{
+    position: relative;
+}
+
